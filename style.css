@@ -54,6 +54,9 @@ body {
     opacity: 0.7;
 }
 
+#name{
+    text-transform: capitalize;
+}
 .item {
     background-color: white;
     height: 300px;
@@ -63,6 +66,7 @@ body {
     border-radius: 10px;
     position: relative;
     word-wrap: break-word;
+    text-transform: capitalize;
 }
 
 .item:hover {

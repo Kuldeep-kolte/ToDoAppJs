@@ -128,8 +128,8 @@ let expandItem = (card) => {
       </div>
       <span id="itemExpTitleID" class="itemExpTitle">${card.innerText}</span>
       <div class="expAdd" onclick="popupfunction()">
-        <i class="fa-solid fa-circle-plus"></i>
-        <span>Add</span>
+        <i class="fa-solid fa-circle-plus" style = "color:#00a5ec"></i>
+        <span>Add Task</span>
       </div>
     </header>
     <div class="content">
